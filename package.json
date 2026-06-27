@@ -2,7 +2,7 @@
   "name": "where-we-meet",
   "version": "0.1.0",
   "description": "WhereWeMeet / 约哪儿: find fair meetup areas for people starting from different places.",
-  "license": "MIT",
+  "license": "MIT-0",
   "type": "module",
   "bin": {
     "where-we-meet": "./scripts/where-we-meet.js"

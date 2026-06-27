@@ -134,4 +134,4 @@ node scripts/where-we-meet.js examples/beijing.json --full
 
 ## License
 
-MIT
+MIT-0

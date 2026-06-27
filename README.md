@@ -132,4 +132,4 @@ Prompts that should trigger it:
 
 ## License
 
-MIT
+MIT-0
