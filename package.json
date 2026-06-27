@@ -1,0 +1,41 @@
+{
+  "name": "where-we-meet",
+  "version": "0.1.0",
+  "description": "WhereWeMeet / 约哪儿: find fair meetup areas for people starting from different places.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "where-we-meet": "./scripts/where-we-meet.js"
+  },
+  "scripts": {
+    "check": "node --check src/index.js && node --check scripts/where-we-meet.js && node --check bin/where-we-meet",
+    "demo": "node scripts/where-we-meet.js examples/beijing.json",
+    "start": "node scripts/where-we-meet.js",
+    "where-we-meet": "node scripts/where-we-meet.js"
+  },
+  "keywords": [
+    "agent-skill",
+    "amap",
+    "meetup",
+    "location",
+    "where-we-meet"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "bin/",
+    "scripts/",
+    "src/",
+    "schemas/",
+    "examples/",
+    "evals/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}

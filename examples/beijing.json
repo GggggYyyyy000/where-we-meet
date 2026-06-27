@@ -1,0 +1,27 @@
+{
+  "city": "北京",
+  "people": [
+    {
+      "name": "A",
+      "address": "五道口"
+    },
+    {
+      "name": "B",
+      "address": "望京"
+    },
+    {
+      "name": "C",
+      "address": "亦庄"
+    }
+  ],
+  "poiKeyword": "餐厅",
+  "mode": "transit",
+  "limit": 3,
+  "candidateLimit": 12,
+  "requestIntervalMs": 700,
+  "searchRadii": [
+    1500,
+    3000,
+    5000
+  ]
+}

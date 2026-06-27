@@ -1,0 +1,60 @@
+{
+  "city": "北京",
+  "people": [
+    {
+      "name": "A",
+      "address": "团结湖地铁站"
+    },
+    {
+      "name": "B",
+      "address": "工人体育场地铁站"
+    },
+    {
+      "name": "C",
+      "address": "龙湖蓝海引擎"
+    },
+    {
+      "name": "D",
+      "address": "金台路"
+    }
+  ],
+  "poiKeyword": "重庆火锅",
+  "mode": "transit",
+  "regionLimit": 5,
+  "candidateLimit": 120,
+  "clusterRadiusMeters": 1200,
+  "minRegionDistanceMeters": 2000,
+  "requestIntervalMs": 700,
+  "outputHtml": "output/beijing-chongqing-hotpot.html",
+  "outputSummary": "output/beijing-chongqing-hotpot-summary.md",
+  "outputPersonalMap": {
+    "enabled": true,
+    "orgName": "WhereWeMeet：重庆火锅",
+    "sceneType": 2,
+    "maxRegions": 5,
+    "shopsPerRegion": 1,
+    "pointLimit": 5,
+    "outputJson": "output/beijing-chongqing-hotpot-personal-map.json",
+    "qrImage": "output/beijing-chongqing-hotpot-personal-map-qr.png"
+  },
+  "map": {
+    "viewMode": "2D",
+    "pitch": 0,
+    "initialZoom": 12,
+    "focusZoom": 14,
+    "mapStyle": "amap://styles/whitesmoke",
+    "features": ["bg", "road", "building"],
+    "circleRadiusMeters": 1200,
+    "circleFillOpacity": 0.08,
+    "circleStrokeWeight": 2,
+    "showShopMarkers": "all",
+    "maxVisibleShopsPerRegion": 999,
+    "showRouteLinesToSelectedRegion": true,
+    "showRouteTimeLabels": true
+  },
+  "searchRadii": [
+    1500,
+    3000,
+    5000
+  ]
+}

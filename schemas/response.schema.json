@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "YuenaJsonResponse",
+  "type": "object",
+  "required": ["ok", "reply", "meta"],
+  "properties": {
+    "ok": { "type": "boolean" },
+    "reply": {
+      "type": "object",
+      "required": ["markdown", "mediaDirective", "links", "files"],
+      "properties": {
+        "markdown": { "type": "string" },
+        "mediaDirective": { "type": "string" },
+        "links": {
+          "type": "object",
+          "properties": {
+            "mobileMap": { "type": "string" },
+            "pcHtml": { "type": "string" }
+          }
+        },
+        "files": {
+          "type": "object",
+          "properties": {
+            "summary": { "type": "string" }
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "city": { "type": "string" },
+        "poiKeyword": { "type": "string" },
+        "modeLabel": { "type": "string" },
+        "regionCount": { "type": "integer" },
+        "candidateCount": { "type": "integer" }
+      }
+    }
+  }
+}

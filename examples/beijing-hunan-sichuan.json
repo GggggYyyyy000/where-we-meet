@@ -1,0 +1,31 @@
+{
+  "city": "北京",
+  "request": "找一个谁都不远的地方，都在北京，第一个人在管庄地铁站、第二个人在北苑路北地铁站、第三个人住望京，想吃个湘菜或者川菜",
+  "people": [
+    {
+      "name": "A",
+      "address": "管庄地铁站"
+    },
+    {
+      "name": "B",
+      "address": "北苑路北地铁站"
+    },
+    {
+      "name": "C",
+      "address": "望京"
+    }
+  ],
+  "poiKeywords": [
+    "湘菜",
+    "川菜"
+  ],
+  "mode": "transit",
+  "regionLimit": 5,
+  "candidateLimit": 120,
+  "clusterRadiusMeters": 1200,
+  "minRegionDistanceMeters": 2000,
+  "requestIntervalMs": 700,
+  "summary": {
+    "limit": 5
+  }
+}

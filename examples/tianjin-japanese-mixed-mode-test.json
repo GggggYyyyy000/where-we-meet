@@ -1,0 +1,61 @@
+{
+  "city": "天津市",
+  "people": [
+    {
+      "name": "A",
+      "address": "津塘路地铁站",
+      "mode": "driving"
+    },
+    {
+      "name": "B",
+      "address": "西青区青吉里小区",
+      "mode": "driving"
+    },
+    {
+      "name": "C",
+      "address": "路劲太阳城",
+      "mode": "transit"
+    }
+  ],
+  "poiKeyword": "日料",
+  "regionLimit": 5,
+  "candidateLimit": 120,
+  "clusterRadiusMeters": 1200,
+  "minRegionDistanceMeters": 2000,
+  "requestIntervalMs": 700,
+  "outputHtml": "output/tianjin-japanese-mixed-mode-test.html",
+  "outputSummary": "output/tianjin-japanese-mixed-mode-test-summary.md",
+  "summary": {
+    "limit": 5
+  },
+  "outputPersonalMap": {
+    "enabled": true,
+    "orgName": "WhereWeMeet：天津日料",
+    "sceneType": 2,
+    "maxRegions": 5,
+    "shopsPerRegion": 1,
+    "pointLimit": 5,
+    "outputJson": "output/tianjin-japanese-mixed-mode-test-personal-map.json",
+    "qrImage": "output/tianjin-japanese-mixed-mode-test-personal-map-qr.png"
+  },
+  "map": {
+    "viewMode": "2D",
+    "pitch": 0,
+    "initialZoom": 11,
+    "focusZoom": 14,
+    "mapStyle": "amap://styles/whitesmoke",
+    "features": ["bg", "road", "building"],
+    "circleRadiusMeters": 1200,
+    "circleFillOpacity": 0.08,
+    "circleStrokeWeight": 2,
+    "showShopMarkers": "all",
+    "maxVisibleShopsPerRegion": 999,
+    "showRouteLinesToSelectedRegion": true,
+    "showRouteTimeLabels": true
+  },
+  "searchRadii": [
+    1500,
+    3000,
+    5000
+  ]
+}

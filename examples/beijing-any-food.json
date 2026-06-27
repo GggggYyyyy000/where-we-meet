@@ -1,0 +1,46 @@
+{
+  "city": "北京",
+  "people": [
+    {
+      "name": "A",
+      "address": "苏州桥(地铁站)"
+    },
+    {
+      "name": "B",
+      "address": "大屯路东(地铁站)"
+    },
+    {
+      "name": "C",
+      "address": "永定门外(地铁站)"
+    }
+  ],
+  "poiKeyword": "餐厅",
+  "mode": "transit",
+  "regionLimit": 3,
+  "candidateLimit": 120,
+  "clusterRadiusMeters": 1200,
+  "minRegionDistanceMeters": 2000,
+  "minRegionShopCount": 5,
+  "requestIntervalMs": 700,
+  "outputHtml": "output/beijing-any-food.html",
+  "map": {
+    "viewMode": "2D",
+    "pitch": 0,
+    "initialZoom": 11,
+    "focusZoom": 14,
+    "mapStyle": "amap://styles/whitesmoke",
+    "features": ["bg", "road", "building"],
+    "circleRadiusMeters": 1200,
+    "circleFillOpacity": 0.08,
+    "circleStrokeWeight": 2,
+    "showShopMarkers": "all",
+    "maxVisibleShopsPerRegion": 999,
+    "showRouteLinesToSelectedRegion": true,
+    "showRouteTimeLabels": true
+  },
+  "searchRadii": [
+    1500,
+    3000,
+    5000
+  ]
+}

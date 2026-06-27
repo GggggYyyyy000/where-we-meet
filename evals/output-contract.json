@@ -1,0 +1,24 @@
+{
+  "requiredResponseFields": [
+    "reply.markdown",
+    "reply.mediaDirective",
+    "reply.links.mobileMap",
+    "reply.links.pcHtml",
+    "reply.files.summary"
+  ],
+  "defaultStdoutRules": [
+    "Default stdout is final user-facing text, not JSON.",
+    "If QR exists, stdout contains exactly one MEDIA:<path> line.",
+    "Do not also send the QR through attachments or message tool."
+  ],
+  "requiredMarkdownContent": [
+    "本次按",
+    "附近还有",
+    "手机看地图",
+    "PC 端打开 HTML"
+  ],
+  "multiKeywordRule": {
+    "input": ["湘菜", "川菜"],
+    "expected": "Do not silently drop either keyword. Merge candidates with OR semantics."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "city": "北京",
+  "people": [
+    {
+      "name": "A",
+      "address": "金台路地铁站"
+    },
+    {
+      "name": "B",
+      "address": "北苑路北地铁站"
+    },
+    {
+      "name": "C",
+      "address": "青年路地铁站"
+    }
+  ],
+  "poiKeyword": "日料",
+  "poiTypeIncludes": [
+    "日本料理",
+    "日料",
+    "寿司",
+    "烧肉",
+    "刺身",
+    "sashimi"
+  ],
+  "mode": "transit",
+  "regionLimit": 3,
+  "candidateLimit": 100,
+  "clusterRadiusMeters": 1200,
+  "minRegionDistanceMeters": 2000,
+  "personalBestFloorMinutes": 20,
+  "requestIntervalMs": 700,
+  "searchRadii": [
+    1500,
+    3000,
+    5000
+  ]
+}
